@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=DM+Sans&family=Josefin+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo{
+    background-color: black;
+}
+
+.logo-img{
+    width: 20%;
+    margin-left: 10%;
+}
+
+.container-menu{
+    float: right; 
+    margin-right: 10%;
+}
+
+.menu{
+    margin-top: 30px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    display: inline-block;  
+    border-bottom: solid 2px transparent;
+    transition: border-bottom .5s;
+}
+
+.menu a:hover{
+    border-bottom: solid 2px #f9f9f9;
+}
+
+
+
+
+/*section img-fondo*/
+
+.img-fondo{
+    background-color: #f9f9f9;
+    height: 500px;
+    width: 100%;
+    
+}
+
+section div h1{
+    font-size: 50px;
+    text-align: center; 
+    padding-top: 200px;
+}
+
+.nav{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.text-nav1{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: solid 2px transparent; 
+    transition: border .5s;  
+}
+
+.text-nav1:hover{
+    border:solid 2px black
+}
+
+/*section contenedor-productos*/
+
+.contenedor-productos{
+    align-content: center;
+}
+
+.titulo{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.c-producto{
+    display: table-cell;
+    padding: 15px 10% 25px 10%;
+    text-align: center;
+}
+
+.producto{
+    height: 300px;
+}
+
+/*footer*/
+
+.fin{
+    padding:  20px 0 20px 0;
+    background-color: black;
+}
+
+.texto-fin{
+    color: #f9f9f9;
+}
+
+#desarrollador{
+    display: inline;
+    padding-left: 10%;
+}
+
+#propiedad{
+    display: inline;
+    float: right;
+    padding-right: 10%;
+}
+
+#redes-t{
+    text-align: center;
+}
+
+
+#redes{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+

@@ -1,0 +1,45 @@
+.contenedor-formulario{
+    height: 800px;
+    padding: 30px 35% 30px 35%;
+}
+
+.contenedor-texto-c{
+    text-align: center;
+}
+
+.texto-c{
+    font-size: 50px;
+    padding: 35px;
+}
+
+.id{
+    padding: 15px 0 5px 0;
+}
+
+.campo{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.boton{
+    margin-top: 15px;
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 2px;
+    border: transparent;
+    transition: border .5s;
+}
+
+.boton :hover{
+    border: black;
+}
+
+.img{
+    width: 60%;
+    padding: 45px 0 35px 20%;
+
+}
+
+
+
+
